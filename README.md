@@ -22,3 +22,13 @@ Simple interest is calculated only on the original principal; it does not compou
 ## Project scope
 
 This educational project practices Git and GitHub workflows while developing a Bash calculator that accepts the principal, annual interest rate, and time period as user input.
+
+## Usage
+
+Run the calculator in a Bash terminal with `awk` available (for example, Git Bash on Windows):
+
+```bash
+bash simple-interest.sh
+```
+
+Enter the principal amount, annual interest rate as a percentage, and time period in years when prompted. Non-negative whole numbers and decimals are accepted. The script prints the simple interest and total amount to two decimal places.
